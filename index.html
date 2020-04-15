@@ -1189,7 +1189,7 @@
         <div class="section-title mb-10">
           <div class="row">
             <div class="col-md-12">
-              <h2 class="text-uppercase text-theme-colored title line-bottom line-height-1 mt-0">Contact <span class="text-theme-color-2 font-weight-400">Us</span></h2>
+              <h2 class="text-uppercase text-theme-colored title line-bottom line-height-1 mt-0">Contactanos </h2>
             </div>
           </div>
         </div>
@@ -1215,44 +1215,32 @@
                 </div>
               </div>
               <!-- Google Map Javascript Codes -->
-              <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+              <script src="https://maps.google.com/maps/api/js?sensor=false"></script>
               <script src="js/google-map-init.js"></script>
             </div>
             <div class="col-md-7">
-              <h4 class="line-bottom mt-0 mb-30 mt-sm-20">SEND US A MESSAGE</h4>            
+              <h4 class="line-bottom mt-0 mb-30 mt-sm-20">Envíanos un mensaje</h4>            
               <!-- Contact Form -->
-              <form id="contact_form" name="contact_form" class="" action="includes/sendmail.php" method="post">
+              <form id="contact_form" name="contact_form" class="" action="https://formspree.io/xlewzzyb" method="post">
                 <div class="row">
                   <div class="col-sm-6">
                     <div class="form-group mb-30">
-                      <input name="form_name" class="form-control" type="text" placeholder="Enter Name" required="">
+                      <input name="name" class="form-control" type="text" placeholder="Tu nombre" required="">
                     </div>
                   </div>
                   <div class="col-sm-6">
                     <div class="form-group mb-30">
-                      <input name="form_email" class="form-control required email" type="email" placeholder="Enter Email">
+                      <input name="_replyto" class="form-control required email" type="email" placeholder="Tu email">
                     </div>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-sm-6">
-                    <div class="form-group mb-30">
-                      <input name="form_subject" class="form-control required" type="text" placeholder="Enter Subject">
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-group mb-30">
-                      <input name="form_phone" class="form-control" type="text" placeholder="Enter Phone">
-                    </div>
-                  </div>
-                </div>
-                    <div class="form-group">
-                  <textarea name="form_message" class="form-control required" rows="5" placeholder="Enter Message"></textarea>
+                <div class="form-group">
+                  <textarea name="message" class="form-control required" rows="5" placeholder="Tu mensaje"></textarea>
                 </div>
                     <div class="form-group">
                   <input name="form_botcheck" class="form-control" type="hidden" value="" />
-                  <button type="submit" class="btn btn-flat btn-theme-colored text-uppercase mt-20 mb-sm-30 border-left-theme-color-2-4px" data-loading-text="Please wait...">Send your message</button>
-                  <button type="reset" class="btn btn-flat btn-theme-colored text-uppercase mt-20 mb-sm-30 border-left-theme-color-2-4px">Reset</button>
+                  <button type="submit" class="btn btn-flat btn-theme-colored text-uppercase mt-20 mb-sm-30 border-left-theme-color-2-4px" data-loading-text="Enviando...">Enviar tu mensaje</button>
+                  <button type="reset" class="btn btn-flat btn-theme-colored text-uppercase mt-20 mb-sm-30 border-left-theme-color-2-4px">Borrar</button>
                 </div>
               </form>
               <!-- Contact Form Validation-->
