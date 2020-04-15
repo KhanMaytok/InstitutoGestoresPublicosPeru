@@ -10,7 +10,7 @@ COLOR CODE2: #F2184F
 .text-theme-color-2,
 .widget .twitter-feed li::after,
 .work-gallery .gallery-bottom-part .title {
-  color: #F2184F;
+  color: #72D5E3;
 }
 /*Theme Colored Red Bg-color*/
 /* background-theme-color */
@@ -69,7 +69,7 @@ COLOR CODE2: #F2184F
 .bg-theme-color-2,
 .line-bottom:after,
 .line-bottom-center:after {
-  background: #F2184F !important;
+  background: #72D5E3 !important;
 }
 .team-block .team-thumb .styled-icons a:hover,
 .work-gallery .gallery-thumb .styled-icons a:hover,
